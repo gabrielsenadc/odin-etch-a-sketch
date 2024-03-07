@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin: 0 20px;
 }
 
 .coluna {
@@ -14,6 +15,16 @@
 }
 
 .red {
-    background-color: red;
+    background-color: black;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
