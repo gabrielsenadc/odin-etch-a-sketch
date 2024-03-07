@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna {
+    display: flex;
+}
+
+.coluna div {
+    border: 1px solid black;
+    flex: 1;
+    height: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
